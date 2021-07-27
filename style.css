@@ -570,7 +570,7 @@ transition: opacity .5s;
 }
 @media(min-width:1919px){
     html{
-        font-size:90%;
+        font-size:80%;
     }
 }
   /* end of responsive */
