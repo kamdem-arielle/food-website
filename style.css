@@ -188,9 +188,12 @@ html{
  /* end of section-2 */
 
  /*  section-3 */
+ .section-3 .section-heading{
+     padding-top: 1rem;
+ }
  .section-3{
     background-color: #333;
-    padding: 5rem 0;
+    /* padding: 5rem 0; */
  }
 .gallery{
     display:flex;
