@@ -265,7 +265,7 @@ transition: opacity .5s;
  /* end of section-3 */
  /* section-4 */
  .section-4{
-     height: 30vh;
+     height:30vh;
      background-color: #222;
      width: 100%;
      position: relative;
@@ -570,9 +570,14 @@ transition: opacity .5s;
     box-shadow: 0.1rem 0rem .1rem black;
 }
 }
-@media(min-width:1919px){
-    html{
-        font-size:80%;
+@media(min-height:700px) and (max-width:900px){
+    .section-4{
+        height: 20rem;
+    }
+}
+@media(min-height:700px) and (max-width:480px){
+    .section-4{
+        height: 27rem;
     }
 }
   /* end of responsive */
