@@ -420,7 +420,7 @@ transition: opacity .5s;
         height:30vh;
     }
 }
-@media(min-width:951px){
+@media(min-width:900px){
     html{
         font-size: 64.5%;
     }
@@ -433,7 +433,6 @@ transition: opacity .5s;
 
     .food-img{
         width: 24vw;
-        height: 15vw;
     }
     .cards:hover{
         transform:rotateX(20deg) skewX(-2deg) translateY(-2rem);
@@ -578,6 +577,29 @@ transition: opacity .5s;
 @media(min-height:700px) and (max-width:480px){
     .section-4{
         height: 27rem;
+    }
+}
+/* IPAD PRO */
+@media(min-height:1000px) and (min-width:900px){
+    .section-4{
+        height: 27rem;
+    }
+    .section-3{
+        height: auto;
+        padding: 7rem 0;
+    }
+    .section-1{
+        height: 70vh;
+    }
+     .food-img{
+        width:  35vw;
+        height: 15vh;
+    }
+    .gallery-link::after{
+        top: 35%;
+    }
+    .gallery-link::before{
+        right:15%;
     }
 }
   /* end of responsive */
