@@ -463,6 +463,7 @@ transition: opacity .5s;
     left:0;
     text-shadow: -.1rem -.1rem .1rem black;
 }
+
 .gallery-link:hover::before{
    height: 80%;
 }
@@ -477,12 +478,12 @@ transition: opacity .5s;
     opacity: 1;
     visibility: visible;
     transition: opacity .5s .4s;
-} */
+}
 .gallery-link:hover .food-img{
-    box-shadow: 1rem 1rem .1rem #e92929,
-    2rem 2rem .1rem #a2e946,
-    3rem 3rem .1rem #297ce9,
-    4rem 4rem .1rem #e92999 ;
+    box-shadow: 2rem 1rem .1rem #e92929,
+    3rem 2rem .1rem #a2e946,
+    4rem 3rem .1rem #297ce9,
+    5rem 4rem .1rem #e92999 ;
     filter: blur(.5rem);
     opacity: .5;
 }
